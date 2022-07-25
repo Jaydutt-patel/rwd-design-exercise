@@ -15,7 +15,7 @@ const PropertyCard: React.FC<{}> = () => {
         <div className='property-cards-wrapper'>
             {PROPERTY.map((data) =>
                 <div className="property-card" key={data.id}>
-                    <img src={data.img} alt="profile-img" />
+                    <img src={data.img} alt="profile-img" loading='lazy' />
                     <p className='property-title'>{data.p_name}</p>
                     <p className='property-add'>{data.p_address}</p>
                     <div className='property-info-wrapper'>
