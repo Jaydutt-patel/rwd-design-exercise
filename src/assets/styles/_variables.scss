@@ -1,0 +1,166 @@
+//Color Variables
+$green-gradient-color: linear-gradient(270deg, #9cffd5 0%, #58e29f 100%);
+$red-gradient-color: linear-gradient(270deg, #eb5757 0%, #f43b49 100%);
+$desert-strom-gradient: linear-gradient(0deg, white 20%, #f3f2f1);
+
+$submit-button-background-webkit-gradient: -webkit-gradient(
+  linear,
+  left top,
+  right top,
+  from(#8ca6cb),
+  to(#96e1d9)
+);
+$submit-button-background-gradient: linear-gradient(to right, #8ca6cb, #96e1d9);
+
+$desert-strom: #f3f2f1;
+
+$purple-color: #6034b1;
+$light-blue-color: #4566ae;
+$dark-blue: #081e37;
+
+//Black color shades
+$black-color: #1c1c1c;
+$gray-color-dark-1: #0a0a0a;
+$gray-color-dark-2: #0e0e0e;
+$gray-color-dark-3: #131323;
+$gray-color-dark-4: #2b2b2b;
+$gray-99: #fcfcfc;
+$dark-gray: #010101;
+$pure-black-color: #000000;
+$gray-light: #e5e5e5;
+
+//blue color shades
+$navy-blue: #000080;
+$dark-blue: #00008b;
+$medium-blue: #0000cd;
+$primary-blue: #252a51;
+$blue: #0000ff;
+$Aqua: #00ffff;
+$Azure: #f0ffff;
+$Orange: #ffa500;
+$Baby-Blue: #89cff0;
+$Blue: #0000ff;
+$Blue-Gray: #7393b3;
+$Blue-Green: #088f8f;
+$Bright-Blue: #0096ff;
+$Cadet-Blue: #5f9ea0;
+$Cobalt-Blue: #0047ab;
+$Cornflower-Blue: #6495ed;
+$Cyan: #00ffff;
+$Dark-Blue: #00008b;
+$Denim: #6f8faf;
+$Egyptian-Blue: #1434a4;
+$Electric-Blue: #7df9ff;
+$Glaucous: #6082b6;
+$Jade: #00a36c;
+$Indigo: #3f00ff;
+$Iris: #5d3fd3;
+$Light-Blue: #add8e6;
+$Midnight-Blue: #191970;
+$Navy-Blue: #000080;
+$Neon-Blue: #1f51ff;
+$Pastel-Blue: #a7c7e7;
+$Periwinkle: #ccccff;
+$Powder-Blue: #b6d0e2;
+$Robin-Egg-Blue: #96ded1;
+$Royal-Blue: #4169e1;
+$Sapphire-Blue: #0f52ba;
+$Seafoam-Green: #9fe2bf;
+$Sky-Blue: #87ceeb;
+$Steel-Blue: #4682b4;
+$Teal: #008080;
+$Turquoise: #40e0d0;
+$Ultramarine: #0437f2;
+$Verdigris: #40b5ad;
+$Zaffre: #0818a8;
+$blue-light: #0183ff;
+$gray-button: #5e5e5e;
+$gray-text: #999999;
+$primary-gradient: linear-gradient(
+  89.44deg,
+  #c3a5fe -4.13%,
+  #85bffd 52.48%,
+  #9ee7cc 99.13%
+);
+//mic color
+$light-red: #ff4f5e;
+//primary colors
+$primary-color: #5993e5;
+// $secondary-color: #96e1d9;
+$secondary-color-dark: #252a51;
+$radiant-green: #9ee7cc;
+$secondary-color: #19e1d4;
+
+//White Color Shades
+$white-color: #ffffff;
+
+// transparent shades
+$glass-light: rgba(
+  $color: $white-color,
+  $alpha: 0.05,
+);
+$glass-medium: rgba(
+  $color: $black-color,
+  $alpha: 0.5,
+);
+$glass-dark: rgba(
+  $color: #101010,
+  $alpha: 0.9,
+);
+$glass-white-bg: rgba(43, 43, 43, 0.3);
+$glass-white-light-bg: rgba(43, 43, 43, 0.2);
+$dark-bg: #0f123d;
+
+// grey color shades
+$grey-light: #cdcdcd;
+$grey-medium: #5f5f5f;
+
+// dating show
+$persian-rose: #ff2fb2;
+$light-magenta: #ff57d7;
+
+//Font family
+$font: "Ubuntu", sans-serif;
+
+//Font Weight Variables
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-large: 600;
+$font-bold: 700;
+$font-extra-bold: 900;
+
+//latter Spacing variables
+$letter-spacing-base: 0.5px !default;
+$letter-spacing-lg: 2px !default;
+$letter-spacing-xl: 4px !default;
+
+//Line Height variables
+$line-height-default: 1.5;
+
+//Font size variables
+$font-size-xs: 0.8125rem;
+$font-size-sm: 0.875rem;
+$font-size-default: 0.9375rem; // 0.9375rem = 15px
+$font-size-browser-default: 1rem;
+$font-size-md: 1.0625rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.5rem;
+
+//Width and height variables
+$full-width: 100%;
+$full-height: 100%;
+$full-viewport-width: 100vw;
+$full-viewport-height: 100vh;
+
+//Container width variables
+$container-default-width: 80%;
+$container-full-width: $full-width;
+$container-max-width: 1200px;
+
+//Border radius width variables
+$border-radius-default: 5px;
+$border-radius-sm: 2px;
+$border-radius-md: 8px;
+$border-radius-lg: 10px;
+$border-radius-circle: 50%;

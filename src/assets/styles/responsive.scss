@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1500px) {
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1368px) {
+  .header-wrapper {
+    .desktop-header {
+      width: 85%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .header-wrapper {
+    .desktop-header {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 850px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .property-wrapper {
+    .property-filter {
+      width: 90%;
+    }
+  }
+  .form-main-wrapper {
+    .form-wrapper {
+      flex-wrap: wrap;
+      .primary-form-wrapper {
+        width: 100%;
+      }
+      .secondary-form-wrapper {
+        width: 100%;
+        .mob-submit-btn {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .property-wrapper {
+    .property-cards-wrapper {
+      .property-card {
+        min-width: 100%;
+        width: 100%;
+        margin: 15px 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 440px) {
+}
+
+@media only screen and (max-width: 370px) {
+}
+
+@media (min-height: 860px) and (max-height: 950px) {
+}
+
+@media (min-height: 820px) and (max-height: 860px) {
+}
+
+@media (min-height: 768px) and (max-height: 950px) {
+}
