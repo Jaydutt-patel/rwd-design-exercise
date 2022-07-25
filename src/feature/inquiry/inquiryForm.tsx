@@ -14,7 +14,7 @@ const InquiryForm: React.FC<{}> = () => {
     const [SelectedState, setSelectedState] = useState("");
 
 
-    const resetPasswordValidationSchema = () => Yup.object().shape({
+    const inquiryFormValidationSchema = () => Yup.object().shape({
         firstName: Yup.string().min(3, 'Please enter name which contains at least 3 characters*')
             .required('Please enter First name*').strict(true).max(30, "First name should be atmost of 30 characters*"),
         lastName: Yup.string().min(3, 'Please enter name which contains at least 3 characters*')
@@ -64,7 +64,7 @@ const InquiryForm: React.FC<{}> = () => {
             }}
             validateOnChange={true}
             validateOnBlur={true}
-            validationSchema={resetPasswordValidationSchema}>
+            validationSchema={inquiryFormValidationSchema}>
             {({ handleSubmit, setFieldValue }) => (
                 <form onSubmit={handleSubmit} className='form-wrapper'>
                     <div className='form-division'>
@@ -133,9 +133,9 @@ const InquiryForm: React.FC<{}> = () => {
                                 <label htmlFor='gender'>
                                     Select Gender
                                     <div>
-                                        <input type="radio" value="Male" defaultChecked={true} name="gender" onChange={(e) => setFieldValue(e.target.name, e.target.value)} /> Male
-                                        <input type="radio" value="Female" name="gender" onChange={(e) => setFieldValue(e.target.name, e.target.value)} /> Female
-                                        <input type="radio" value="Other" name="gender" onChange={(e) => setFieldValue(e.target.name, e.target.value)} /> Other
+                                        <label className='radio-text'><input type="radio" value="Male" defaultChecked={true} name="gender" onChange={(e) => setFieldValue(e.target.name, e.target.value)} /> Male</label>
+                                        <label className='radio-text'><input type="radio" value="Female" name="gender" onChange={(e) => setFieldValue(e.target.name, e.target.value)} /> Female</label>
+                                        <label className='radio-text'><input type="radio" value="Other" name="gender" onChange={(e) => setFieldValue(e.target.name, e.target.value)} /> Other</label>
                                     </div>
                                     <ErrorMessage name='gender' component={FieldErrorMessage} />
                                 </label>
