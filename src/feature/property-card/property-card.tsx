@@ -1,9 +1,9 @@
-import { PROPERTY } from 'common/constants';
-import { Bathtub, Bed, Car } from 'common/svgIcons';
 import React from 'react';
 
-const PropertyCard: React.FC<{}> = () => {
+import { PROPERTY } from 'common/constants';
+import { Bathtub, Bed, Car } from 'common/svgIcons';
 
+const PropertyCard: React.FC<{}> = () => {
     return (<div className='property-wrapper'>
         <h1 className='header-text'>Australia's best investment property deals</h1>
         <div className='property-filter'>
