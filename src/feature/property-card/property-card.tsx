@@ -20,9 +20,9 @@ const PropertyCard: React.FC<{}> = () => {
                     <p className='property-add'>{data.p_address}</p>
                     <div className='property-info-wrapper'>
                         <div className='property-info'>
-                            <span><Bed className='pr--5' />{data.bedroom}</span>
-                            <span><Bathtub className='pr--5' />{data.bathroom}</span>
-                            <span><Car className='pr--5' />{data.parking}</span>
+                            <span><Bed className='property-icon' />{data.bedroom}</span>
+                            <span><Bathtub className='property-icon' />{data.bathroom}</span>
+                            <span><Car className='property-icon' />{data.parking}</span>
                         </div>
                         <div className="property-type">{data.p_tag}</div>
                     </div>
